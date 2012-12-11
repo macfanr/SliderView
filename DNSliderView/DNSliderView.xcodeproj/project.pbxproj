@@ -1,0 +1,312 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6B58CB841668ABF8008D3BFF /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6B58CB831668ABF8008D3BFF /* Cocoa.framework */; };
+		6B58CB8E1668ABF8008D3BFF /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6B58CB8C1668ABF8008D3BFF /* InfoPlist.strings */; };
+		6B58CB901668ABF8008D3BFF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B58CB8F1668ABF8008D3BFF /* main.m */; };
+		6B58CB941668ABF8008D3BFF /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 6B58CB921668ABF8008D3BFF /* Credits.rtf */; };
+		6B58CB971668ABF8008D3BFF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B58CB961668ABF8008D3BFF /* AppDelegate.m */; };
+		6B58CB9A1668ABF8008D3BFF /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6B58CB981668ABF8008D3BFF /* MainMenu.xib */; };
+		6B58CBA21668AC41008D3BFF /* DNSliderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B58CBA11668AC41008D3BFF /* DNSliderView.m */; };
+		6B58CBA41668AE94008D3BFF /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6B58CBA31668AE94008D3BFF /* QuartzCore.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		6B58CB7F1668ABF8008D3BFF /* DNSliderView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DNSliderView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6B58CB831668ABF8008D3BFF /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		6B58CB861668ABF8008D3BFF /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		6B58CB871668ABF8008D3BFF /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		6B58CB881668ABF8008D3BFF /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		6B58CB8B1668ABF8008D3BFF /* DNSliderView-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "DNSliderView-Info.plist"; sourceTree = "<group>"; };
+		6B58CB8D1668ABF8008D3BFF /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		6B58CB8F1668ABF8008D3BFF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		6B58CB911668ABF8008D3BFF /* DNSliderView-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "DNSliderView-Prefix.pch"; sourceTree = "<group>"; };
+		6B58CB931668ABF8008D3BFF /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		6B58CB951668ABF8008D3BFF /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		6B58CB961668ABF8008D3BFF /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		6B58CB991668ABF8008D3BFF /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		6B58CBA01668AC41008D3BFF /* DNSliderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DNSliderView.h; sourceTree = "<group>"; };
+		6B58CBA11668AC41008D3BFF /* DNSliderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DNSliderView.m; sourceTree = "<group>"; };
+		6B58CBA31668AE94008D3BFF /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6B58CB7C1668ABF8008D3BFF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6B58CBA41668AE94008D3BFF /* QuartzCore.framework in Frameworks */,
+				6B58CB841668ABF8008D3BFF /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6B58CB741668ABF8008D3BFF = {
+			isa = PBXGroup;
+			children = (
+				6B58CB891668ABF8008D3BFF /* DNSliderView */,
+				6B58CB821668ABF8008D3BFF /* Frameworks */,
+				6B58CB801668ABF8008D3BFF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6B58CB801668ABF8008D3BFF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6B58CB7F1668ABF8008D3BFF /* DNSliderView.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6B58CB821668ABF8008D3BFF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6B58CBA31668AE94008D3BFF /* QuartzCore.framework */,
+				6B58CB831668ABF8008D3BFF /* Cocoa.framework */,
+				6B58CB851668ABF8008D3BFF /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6B58CB851668ABF8008D3BFF /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6B58CB861668ABF8008D3BFF /* AppKit.framework */,
+				6B58CB871668ABF8008D3BFF /* CoreData.framework */,
+				6B58CB881668ABF8008D3BFF /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		6B58CB891668ABF8008D3BFF /* DNSliderView */ = {
+			isa = PBXGroup;
+			children = (
+				6B58CB951668ABF8008D3BFF /* AppDelegate.h */,
+				6B58CB961668ABF8008D3BFF /* AppDelegate.m */,
+				6B58CBA01668AC41008D3BFF /* DNSliderView.h */,
+				6B58CBA11668AC41008D3BFF /* DNSliderView.m */,
+				6B58CB981668ABF8008D3BFF /* MainMenu.xib */,
+				6B58CB8A1668ABF8008D3BFF /* Supporting Files */,
+			);
+			path = DNSliderView;
+			sourceTree = "<group>";
+		};
+		6B58CB8A1668ABF8008D3BFF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6B58CB8B1668ABF8008D3BFF /* DNSliderView-Info.plist */,
+				6B58CB8C1668ABF8008D3BFF /* InfoPlist.strings */,
+				6B58CB8F1668ABF8008D3BFF /* main.m */,
+				6B58CB911668ABF8008D3BFF /* DNSliderView-Prefix.pch */,
+				6B58CB921668ABF8008D3BFF /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6B58CB7E1668ABF8008D3BFF /* DNSliderView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6B58CB9D1668ABF8008D3BFF /* Build configuration list for PBXNativeTarget "DNSliderView" */;
+			buildPhases = (
+				6B58CB7B1668ABF8008D3BFF /* Sources */,
+				6B58CB7C1668ABF8008D3BFF /* Frameworks */,
+				6B58CB7D1668ABF8008D3BFF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DNSliderView;
+			productName = DNSliderView;
+			productReference = 6B58CB7F1668ABF8008D3BFF /* DNSliderView.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6B58CB761668ABF8008D3BFF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = "Xu Jun";
+			};
+			buildConfigurationList = 6B58CB791668ABF8008D3BFF /* Build configuration list for PBXProject "DNSliderView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 6B58CB741668ABF8008D3BFF;
+			productRefGroup = 6B58CB801668ABF8008D3BFF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6B58CB7E1668ABF8008D3BFF /* DNSliderView */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6B58CB7D1668ABF8008D3BFF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6B58CB8E1668ABF8008D3BFF /* InfoPlist.strings in Resources */,
+				6B58CB941668ABF8008D3BFF /* Credits.rtf in Resources */,
+				6B58CB9A1668ABF8008D3BFF /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6B58CB7B1668ABF8008D3BFF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6B58CB901668ABF8008D3BFF /* main.m in Sources */,
+				6B58CB971668ABF8008D3BFF /* AppDelegate.m in Sources */,
+				6B58CBA21668AC41008D3BFF /* DNSliderView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		6B58CB8C1668ABF8008D3BFF /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6B58CB8D1668ABF8008D3BFF /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		6B58CB921668ABF8008D3BFF /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6B58CB931668ABF8008D3BFF /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		6B58CB981668ABF8008D3BFF /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6B58CB991668ABF8008D3BFF /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6B58CB9B1668ABF8008D3BFF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		6B58CB9C1668ABF8008D3BFF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		6B58CB9E1668ABF8008D3BFF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DNSliderView/DNSliderView-Prefix.pch";
+				INFOPLIST_FILE = "DNSliderView/DNSliderView-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		6B58CB9F1668ABF8008D3BFF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DNSliderView/DNSliderView-Prefix.pch";
+				INFOPLIST_FILE = "DNSliderView/DNSliderView-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6B58CB791668ABF8008D3BFF /* Build configuration list for PBXProject "DNSliderView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6B58CB9B1668ABF8008D3BFF /* Debug */,
+				6B58CB9C1668ABF8008D3BFF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6B58CB9D1668ABF8008D3BFF /* Build configuration list for PBXNativeTarget "DNSliderView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6B58CB9E1668ABF8008D3BFF /* Debug */,
+				6B58CB9F1668ABF8008D3BFF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6B58CB761668ABF8008D3BFF /* Project object */;
+}
