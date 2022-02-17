@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-02-17T10:31:29.005Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36" etag="6SRu2sqOjdiax1oVw17v" version="16.5.6" type="github">
+<mxfile host="app.diagrams.net" modified="2022-02-17T10:42:48.593Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36" etag="Q4E3oFgxVlArx358hnDR" version="16.5.6" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
     <mxGraphModel dx="1640" dy="1293" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -24,7 +24,7 @@
           <mxGeometry x="175" y="160" width="120" height="100" as="geometry" />
         </mxCell>
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-7" value="结束" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;fillColor=#a20025;fontColor=#ffffff;strokeColor=#6F0000;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
-          <mxGeometry x="410" y="190" width="120" height="40" as="geometry" />
+          <mxGeometry x="414" y="190" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-8" value="Yes" style="rounded=0;html=1;jettySize=auto;orthogonalLoop=1;fontSize=11;endArrow=block;endFill=0;endSize=8;strokeWidth=1;shadow=0;labelBackgroundColor=none;edgeStyle=orthogonalEdgeStyle;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="WIyWlLk6GJQsqaUBKTNV-10" target="kVo2EOnCKwho9ZSmZPj_-33" edge="1">
           <mxGeometry x="0.3333" y="20" relative="1" as="geometry">
@@ -76,9 +76,9 @@
           <mxGeometry x="175" y="1105" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="kVo2EOnCKwho9ZSmZPj_-15" value="是否在顶部边框&lt;br&gt;及以上" style="rhombus;whiteSpace=wrap;html=1;rounded=0;fillColor=#008a00;fontColor=#ffffff;strokeColor=#005700;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
-          <mxGeometry x="414" y="665" width="160" height="60" as="geometry" />
+          <mxGeometry x="414" y="830" width="160" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="kVo2EOnCKwho9ZSmZPj_-18" value="No" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;jettySize=auto;orthogonalLoop=1;fontSize=11;endArrow=block;endFill=0;endSize=8;strokeWidth=1;shadow=0;labelBackgroundColor=none;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="WIyWlLk6GJQsqaUBKTNV-11" target="kVo2EOnCKwho9ZSmZPj_-15" edge="1">
+        <mxCell id="kVo2EOnCKwho9ZSmZPj_-18" value="No" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;jettySize=auto;orthogonalLoop=1;fontSize=11;endArrow=block;endFill=0;endSize=8;strokeWidth=1;shadow=0;labelBackgroundColor=none;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="kVo2EOnCKwho9ZSmZPj_-0" target="kVo2EOnCKwho9ZSmZPj_-15" edge="1">
           <mxGeometry y="10" relative="1" as="geometry">
             <mxPoint as="offset" />
             <mxPoint x="300" y="550" as="sourcePoint" />
@@ -86,7 +86,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="kVo2EOnCKwho9ZSmZPj_-19" value="轨道上方新建轨道&lt;br&gt;并加入资源" style="whiteSpace=wrap;html=1;rounded=1;glass=0;strokeWidth=1;shadow=0;fillColor=#1ba1e2;fontColor=#ffffff;strokeColor=#006EAF;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
-          <mxGeometry x="434" y="805" width="120" height="60" as="geometry" />
+          <mxGeometry x="434" y="965" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="kVo2EOnCKwho9ZSmZPj_-21" value="Yes" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;jettySize=auto;orthogonalLoop=1;fontSize=11;endArrow=block;endFill=0;endSize=8;strokeWidth=1;shadow=0;labelBackgroundColor=none;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="kVo2EOnCKwho9ZSmZPj_-15" target="kVo2EOnCKwho9ZSmZPj_-19" edge="1">
           <mxGeometry y="10" relative="1" as="geometry">
@@ -102,8 +102,8 @@
             <mxPoint x="640" y="695" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="kVo2EOnCKwho9ZSmZPj_-23" value="是否为主轨道" style="rhombus;whiteSpace=wrap;html=1;rounded=0;fillColor=#008a00;fontColor=#ffffff;strokeColor=#005700;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
-          <mxGeometry x="640" y="665" width="120" height="60" as="geometry" />
+        <mxCell id="kVo2EOnCKwho9ZSmZPj_-23" value="轨道是否为主轨道" style="rhombus;whiteSpace=wrap;html=1;rounded=0;fillColor=#008a00;fontColor=#ffffff;strokeColor=#005700;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="640" y="830" width="150" height="60" as="geometry" />
         </mxCell>
         <mxCell id="kVo2EOnCKwho9ZSmZPj_-26" value="Yes" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;jettySize=auto;orthogonalLoop=1;fontSize=11;endArrow=block;endFill=0;endSize=8;strokeWidth=1;shadow=0;labelBackgroundColor=none;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="kVo2EOnCKwho9ZSmZPj_-23" edge="1" target="VnIIeza6wGG-whXCrfQa-0">
           <mxGeometry y="10" relative="1" as="geometry">
@@ -114,7 +114,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="kVo2EOnCKwho9ZSmZPj_-28" value="轨道下方新建轨道&lt;br&gt;并加入资源" style="whiteSpace=wrap;html=1;rounded=1;fillColor=#1ba1e2;fontColor=#ffffff;strokeColor=#006EAF;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
-          <mxGeometry x="827" y="805" width="120" height="60" as="geometry" />
+          <mxGeometry x="827" y="965" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="kVo2EOnCKwho9ZSmZPj_-30" value="No" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;jettySize=auto;orthogonalLoop=1;fontSize=11;endArrow=block;endFill=0;endSize=8;strokeWidth=1;shadow=0;labelBackgroundColor=none;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="kVo2EOnCKwho9ZSmZPj_-23" target="kVo2EOnCKwho9ZSmZPj_-28" edge="1">
           <mxGeometry y="10" relative="1" as="geometry">
@@ -133,18 +133,28 @@
             <mxPoint x="260" y="640" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="kVo2EOnCKwho9ZSmZPj_-35" value="No" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;jettySize=auto;orthogonalLoop=1;fontSize=11;endArrow=block;endFill=0;endSize=8;strokeWidth=1;shadow=0;labelBackgroundColor=none;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" target="kVo2EOnCKwho9ZSmZPj_-38" edge="1">
-          <mxGeometry y="10" relative="1" as="geometry">
-            <mxPoint as="offset" />
-            <mxPoint x="300" y="525" as="sourcePoint" />
-            <mxPoint x="380" y="525" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
         <mxCell id="kVo2EOnCKwho9ZSmZPj_-38" value="加入资源到该轨道(主轨道)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#1ba1e2;fontColor=#ffffff;strokeColor=#006EAF;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="414" y="495" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="VnIIeza6wGG-whXCrfQa-0" value="轨道上方新建轨道&lt;br&gt;并加入资源" style="whiteSpace=wrap;html=1;rounded=1;glass=0;strokeWidth=1;shadow=0;fillColor=#1ba1e2;fontColor=#ffffff;strokeColor=#006EAF;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="640" y="805" width="120" height="60" as="geometry" />
+          <mxGeometry x="640" y="965" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="VnIIeza6wGG-whXCrfQa-2" value="No" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;jettySize=auto;orthogonalLoop=1;fontSize=11;endArrow=block;endFill=0;endSize=8;strokeWidth=1;shadow=0;labelBackgroundColor=none;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="kVo2EOnCKwho9ZSmZPj_-33" target="kVo2EOnCKwho9ZSmZPj_-38">
+          <mxGeometry y="10" relative="1" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="310" y="550" as="sourcePoint" />
+            <mxPoint x="424" y="555" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VnIIeza6wGG-whXCrfQa-3" value="No" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;jettySize=auto;orthogonalLoop=1;fontSize=11;endArrow=block;endFill=0;endSize=8;strokeWidth=1;shadow=0;labelBackgroundColor=none;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="WIyWlLk6GJQsqaUBKTNV-11" target="VnIIeza6wGG-whXCrfQa-4">
+          <mxGeometry y="10" relative="1" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="307.5" y="694.5" as="sourcePoint" />
+            <mxPoint x="414" y="694.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VnIIeza6wGG-whXCrfQa-4" value="是否为包含音频资源" style="rhombus;whiteSpace=wrap;html=1;fillColor=#008a00;strokeColor=#005700;fontColor=#ffffff;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="414" y="655" width="126" height="80" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
